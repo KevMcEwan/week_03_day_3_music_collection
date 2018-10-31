@@ -28,7 +28,15 @@ album4.save
 album5.save
 album6.save
 
-p album1.find_artist
+artist1.name = "GNR"
+
+artist1.update
+
+album1.title = "The Spaghetti Incident"
+
+album1.update
+
+# p album1.find_artist
 # p artist1.list_albums()
 # p Artist.all()
 # p Album.all()
